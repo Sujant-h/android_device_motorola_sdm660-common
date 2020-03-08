@@ -10,3 +10,6 @@ allow system_server vendor_idc_file:file r_file_perms;
 get_prop(system_server, exported_camera_prop)
 get_prop(system_server, userspace_reboot_config_prop)
 get_prop(system_server, userspace_reboot_exported_prop)
+
+# Smart_charging
+allow system_server sysfs_healthd:file rw_file_perms;
