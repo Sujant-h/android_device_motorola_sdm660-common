@@ -20,3 +20,6 @@ type persist_chargeonly_file, file_type, data_file_type;
 
 # Healthd
 type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
