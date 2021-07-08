@@ -123,10 +123,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
 
-# GalleryGo
-PRODUCT_PACKAGES += \
-    GalleryGoPrebuilt
-
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl-qti \
